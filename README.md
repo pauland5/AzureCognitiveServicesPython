@@ -1,6 +1,9 @@
 Repository Name = AzureCognitiveServicesPython
+
 Sample code for accessing Azure Cognitive Services
+
 The python scripts in this repository can be used to call Microsoft's Azure Cogniive Services API's
+
 The scripts assume the that the developer has setup an Azure account and has Keys to the API's, which can be created in the Azure portal
 
 There are scripts for:
