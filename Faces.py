@@ -215,6 +215,7 @@ for file in os.listdir(path = directory):
         age = item['faceAttributes']['age']
         glasses = item['faceAttributes']['glasses']
         emotion = item['faceAttributes']['emotion']  
+        #Find the emotion with the highest score.  Maximium value in the dictionary of values.
         v=list(emotion.values())
         k=list(emotion.keys())
         maxemotion = k[v.index(max(v))]
@@ -246,7 +247,7 @@ for file in os.listdir(path = directory):
                 matchconfidence = item['candidates'][0]['confidence']
                 print("Face Match for: ", facematch, "      Group Member: ", groupmember, "      Confidence: ", matchconfidence)
         except:
-            print("No family members detected") 
+            print("No group  members detected") 
             nbrfamilymembers = 0
             
     print ("Number of people from group detected: ", nbrgroupmembers)
