@@ -3,7 +3,7 @@ import requests
 import json
 import cognitive_face as CF
 import os
-from PIL import Image
+
 
 
 #Subscription key for Face API.  Get from the Azure Face API in the Azure Portal.
