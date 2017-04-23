@@ -248,7 +248,7 @@ for file in os.listdir(path = directory):
                 print("Face Match for: ", facematch, "      Group Member: ", groupmember, "      Confidence: ", matchconfidence)
         except:
             print("No group  members detected") 
-            nbrfamilymembers = 0
+            nbrgroupmembers = 0
             
     print ("Number of people from group detected: ", nbrgroupmembers)
 
